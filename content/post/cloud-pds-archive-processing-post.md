@@ -1,7 +1,7 @@
 ---
 title: "Cloud Processing of PDS Archival Products"
 date: 2021-06-22T19:39:35-07:00
-draft: true
+draft: false
 tags: ["pds", "cloud", "aws", "kubernetes", "pdw", "psida"]
 ---
 
