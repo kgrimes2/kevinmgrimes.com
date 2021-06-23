@@ -1,7 +1,7 @@
 ---
 title: "Searching the Stars with Atlas IV"
 date: 2021-06-22T21:03:35-07:00
-draft: true
+draft: false
 tags: ["pds", "atlas", "search", "elasticsearch", "js"]
 ---
 
@@ -16,8 +16,8 @@ The presentation "Searching the Stars with Atlas IV" was presented virtually to 
 ## Downloads
 
 - Abstract ([PDF](https://www.hou.usra.edu/meetings/planetdata2021/pdf/7099.pdf))
-- Slideshow ([PPTX](), [PDF]())
-- Lightning talk ([PPTX](), [PDF]())
+- Slideshow (*pending review*)
+- Lightning talk (*pending review*)
 
 ## Abstract
 
