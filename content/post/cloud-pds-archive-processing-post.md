@@ -7,6 +7,8 @@ tags: ["pds", "cloud", "aws", "kubernetes", "pdw", "psida"]
 
 The presentation "Cloud Processing of PDS Archival Products with Amazon Web Services, Kubernetes, and Elasticsearch" was presented virutally to the 5th Planetary Data Workshop and 2nd Planetary Science Informatics and Data Analytics meeting on Wednesday, June 30, 2021.
 
+<!--more-->
+
 ## Video
 
 {{< youtube mQGWqjcVZ6I >}}
