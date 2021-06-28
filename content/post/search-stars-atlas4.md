@@ -40,7 +40,7 @@ Toward these ends, multiple components of the IMG website are being completely r
 
 ### Atlas
 
-The fourth iteration of the Image Atlas (“Atlas IV”) boasts several improvements over its predecessor and even more features. The entire codebase has been redone in favor of modern web technologies: the previous JQuery-era web application is replaced with a single-page React, Redux, MaterialUI, Node, and Webpack application. These technologies enable faster development; cleaner, scalable, and more maintainable code; access to an ever-growing suite of open-source JavaScript libraries; superior design; bundling; and transpiling
+The fourth iteration of the Image Atlas (“Atlas IV”) boasts several improvements over its predecessor and even more features. The entire codebase has been redone in favor of modern web technologies: the previous JQuery-era web application is replaced with a single-page React, Redux, MaterialUI, Node, and Webpack application. These technologies enable faster development; cleaner, scalable, and more maintainable code; access to an ever-growing suite of open-source JavaScript libraries; superior design; bundling; and transpiling.
 
 ### Filtering
 
