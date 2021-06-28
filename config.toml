@@ -79,8 +79,8 @@ paginate = 10
 
   # Comments
   # utterances, see: https://utteranc.es/
-  # utterancesRepo = "*/*"
-  # utterancesIssueTerm = "pathname"
+  utterancesRepo = "kgrimes2/kevinmgrimes.com"
+  utterancesIssueTerm = "pathname"
 
   # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
   # disqusShortname = "*********"

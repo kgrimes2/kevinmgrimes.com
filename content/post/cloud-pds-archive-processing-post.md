@@ -3,6 +3,7 @@ title: "Cloud Processing of PDS Archival Products"
 date: 2021-06-22T19:39:35-07:00
 draft: false
 tags: ["pds", "cloud", "aws", "kubernetes", "pdw", "psida"]
+showLicense: false
 ---
 
 The presentation "Cloud Processing of PDS Archival Products with Amazon Web Services, Kubernetes, and Elasticsearch" was presented virutally to the 5th Planetary Data Workshop and 2nd Planetary Science Informatics and Data Analytics meeting on Wednesday, June 30, 2021.
@@ -73,3 +74,6 @@ Scaling and upgrading our services with no downtime is another requirement of th
 ### Future Work
 
 Due to the rapidly changing nature of the technologies described above, IMG is constantly learning new and improved design patterns and technologies. Additionally, IMG hopes to interface with PDS Engineering Node’s [PDS API](https://github.com/NASA-PDS/pds-api)–a centralized API that routes traffic to different nodes.
+
+> JPL URS clearance number: CL#21-2737
+
