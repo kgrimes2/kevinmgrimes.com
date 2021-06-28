@@ -17,8 +17,8 @@ The presentation "Searching the Stars with Atlas IV" was presented virtually to 
 ## Downloads
 
 - Abstract ([PDF](https://www.hou.usra.edu/meetings/planetdata2021/pdf/7099.pdf))
-- Slideshow ([PPTX](/pptx/PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pptx), [PDF](PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pdf))
-- Lightning talk ([PPTX](/pptx/lightning_talk_PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pptx), [PDF](/pdfs/lightning_talk_PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pdf))
+- Slideshow ([PPTX](/pptx/PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pptx), [PDF](/pdf/PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pdf))
+- Lightning talk ([PPTX](/pptx/lightning_talk_PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pptx), [PDF](/pdf/lightning_talk_PDW_2021_SearchingTheStarsWithAtlas4_grimes-7099.pdf))
 
 ## Abstract
 
