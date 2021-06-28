@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://kevinmgrimes.com/"
 title = "kevinmgrimes.com"
 
 theme = "fuji"
@@ -98,7 +98,7 @@ paginate = 10
   lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
 
   # Let images display in full brightness under dark mode
-  # disableDarkImage = true
+  disableDarkImage = true
 
 [markup]
   [markup.goldmark]
