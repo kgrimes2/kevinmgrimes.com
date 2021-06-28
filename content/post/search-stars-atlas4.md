@@ -36,7 +36,7 @@ As our imagery collection continues to grow with missions like Mars 2020 prepari
 
 Toward these ends, multiple components of the IMG website are being completely rebuilt. The main website has been completely redesigned to bring it up-to-date with today’s user experience standards. The IMG archive will be migrated to commercial cloud storage in the future, and therefore our website and portal infrastructure needs to be made compatible. Backend services are being rebuilt from the ground up to provide state-of-the-art workflows, security, search, and access. Finally, the Image Atlas search tool is receiving a complete revamp to give end users a more friendly search experience.
 
-![New Atlas IV homepage](/images/atlas4_img_homepage.png)
+{{< figure caption="Figure A: New Atlas IV homepage" alt="Screenshot of New Atlas IV homepage" src="/images/atlas4_img_homepage.png" >}}
 
 ### Atlas
 
@@ -46,13 +46,13 @@ The fourth iteration of the Image Atlas (“Atlas IV”) boasts several improvem
 
 Atlas IV’s search now utilizes addable filters to narrow the user’s search. This lowers the cognitive overhead to begin searching, when compared to Atlas III’s unset filter approach, while continuing to allow advanced users to search every facet. Addable filters are now organized into higher-level groups such as “Lighting” and “Time”. Additionally, facet descriptions have been added throughout the application, helping to describe ambiguously-named label keywords. Textual searching and other core Atlas III features are included and improved as well.
 
-![GIF of filter-driven search in Atlas IV](/gifs/atlas4_filter.2021-06-27_19_27_20.gif)
+{{< figure caption="Figure B: GIF of filter-driven search in Atlas IV" src="/gifs/atlas4_filter.2021-06-27_19_27_20.gif" >}}
 
 ### Map
 
 Through recent user studies and interviews, we have arrived at the conclusion that geospatial search must be a primary way to navigate our archive–a markedly different approach than Atlas III. An expandable map is not only integrated into the filtering system but it can also render resulting imagery locations and footprints onto the surface. Bounding boxes and other spatial operations provide both a more powerful search and an increased context to better understand results. Another limit of Atlas III’s mapping functionality was that it only supported three maps. With the courtesy of our USGS partner’s mapping library [CartoCosmos](https://ceias.nau.edu/capstone/projects/CS/2020/CartoCosmos-S20/), Atlas IV will showcase maps of nearly 30 bodies all with various basemaps and layers for each. Polar maps are also supported.
 
-![Image of Atlas IV map capability](/images/atlas4_map.png)
+{{< figure caption="Figure C: Image of Atlas IV map capability" src="/images/atlas4_map.png" >}}
 
 ### File explorer
 
@@ -60,7 +60,7 @@ Implicit in the PDS3 and PDS4 archival standards are directory structures which 
 
 The entirety of IMG’s archive is indexed in ElasticSearch and a new user interface has been developed to interact with it. Users can now filter over and search through all images, metadata, and ancillary files while still being able to traverse the file tree by clicking on folders.
 
-![GIF of file explorer in Atlas IV](/gifs/Atlas4_filex.2021-06-27_19_27_49.gif)
+{{< figure caption="Figure D: GIF of file explorer in Atlas IV" src="/gifs/Atlas4_filex.2021-06-27_19_27_49.gif" >}}
 
 ### Download
 
@@ -68,7 +68,7 @@ Downloading large amounts of data is an increasingly popular task users like to 
 
 The download mechanisms themselves are being reworked as well. Users will continue to be able to download individual files via command-line tools like [wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se/); however, we are exploring other download methods such as asynchronous downloads. With this approach, the products the user has selected are collected behind the scenes and zipped into a file, and the user is sent via email notification a one-time link to download it. Another option being considered is streaming data straight to the user as a ZIP via the web browser. A final option is to offer a specialized download client that offers features like automatic retries and file prioritization. IMG is currently in the process of evaluating the most efficient and user-centric method among these options to support user downloads.
 
-![Screenshot of Atlas IV bulk download](/images/atlas4_bulk_download.png)
+{{< figure caption="Figure E: Screenshot of Atlas IV bulk download" src="/images/atlas4_bulk_download.png" >}}
 
 ### Record View
 
@@ -77,13 +77,13 @@ find matching products.
 
 The Record View also supports a highly-extensible “tabbed” view of imagery products, keeping users from being locked into a single perspective of the data. The raw, two-dimensional image may take the focus; or, perhaps, users would like to place their attention on its label and search through it interactively. Users may wish to see their image rendered on the surrounding surface, or know the three-dimensional orientation of the spacecraft, camera and their target at capture. All these perspectives are possible with Atlas IV’s new, extensible record view. It allows images and their data to be front and center. The Record View feature of Atlas IV also supports IMG's goals of providing more reusable and consistent web-links that users can share among the community.
 
-![GIF of Record View in Atlas IV](/gifs/Atlas4_record.2021-06-27_19_28_55.gif)
+{{< figure caption="Figure F: GIF of Record View in Atlas IV" src="/gifs/Atlas4_record.2021-06-27_19_28_55.gif" >}}
 
 ### Additional Features
 
 Additional features being introduced with Atlas IV include: mobile-friendly support, a closer integration with machine learning capabilities, extensive help to aid new users, an easily extensible code base for future improvements, virtualized, lazy-loaded, infinite scrolling results and a variety of ways to view them, a shared design system, and a tighter relationship with its parent IMG site.
 
-![Atlas IV additional features screenshot](/images/atlas4_adtl_features.png)
+{{< figure caption="Figure G: Atlas IV additional features screenshot" src="/images/atlas4_adtl_features.png" >}}
 
 ### Conclusions and Further Work
 
