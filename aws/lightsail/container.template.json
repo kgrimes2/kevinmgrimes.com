@@ -1,0 +1,15 @@
+{
+    "serviceName": "kevingrimes-site-service-1",
+    "containers": {
+        "kevingrimes-site": {
+            "image": "kgrimes2/kevinmgrimes.com:main",
+            "ports": {
+                "80": "HTTP"
+            }
+        }
+    },
+    "publicEndpoint": {
+        "containerName": "kevingrimes-site",
+        "containerPort": 80
+    }
+}
