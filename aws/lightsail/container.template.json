@@ -1,8 +1,8 @@
 {
     "serviceName": "kevingrimes-site-service-1",
     "containers": {
-        "kevingrimes-site": {
-            "image": "kgrimes2/kevinmgrimes.com:main",
+        "app": {
+            "image": "",
             "ports": {
                 "80": "HTTP"
             }
