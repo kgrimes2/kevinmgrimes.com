@@ -9,7 +9,7 @@
         }
     },
     "publicEndpoint": {
-        "containerName": "kevingrimes-site",
+        "containerName": "app",
         "containerPort": 80
     }
 }
