@@ -1,5 +1,5 @@
 ---
-title: "Regularly bundling Homebrew formulae to file on macOS with launchctl"
+title: "Automatically backing up Homebrew formulae to file on macOS with launchctl"
 date: 2022-04-13T04:23:29Z
 draft: false
 tags: ["homebrew", "macos", "launchctl"]
