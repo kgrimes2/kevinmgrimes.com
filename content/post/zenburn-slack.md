@@ -10,7 +10,9 @@ I'm a huge fan of the [Zenburn theme](https://kippura.org/zenburnpage/), which i
 
 <!--more-->
 
-There's Zenburn themes for most text editors ([emacs](https://github.com/bbatsov/zenburn-emacs), [vscode](https://marketplace.visualstudio.com/items?itemName=ryanolsonx.zenburn)), terminal clients ([iterm2](https://github.com/colinta/zenburn)), and even web browsers ([Chrome](https://chrome.google.com/webstore/detail/zenburningchrome-theme/hakjkjcbffhnjeghcfdckehklpeifoma)), but I wasn't able to find a description online that mapped this color pallete to a Slack theme.
+There's Zenburn themes for most text editors ([emacs](https://github.com/bbatsov/zenburn-emacs), [vscode](https://marketplace.visualstudio.com/items?itemName=ryanolsonx.zenburn)), terminal clients ([iterm2](https://github.com/colinta/zenburn)), and even web browsers ([Chrome](https://chrome.google.com/webstore/detail/zenburningchrome-theme/hakjkjcbffhnjeghcfdckehklpeifoma)), but I wasn't able to find anything online that mapped this color palette to a Slack theme.
+
+*Until now.*
 
 Here's a screenshot:
 

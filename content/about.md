@@ -8,9 +8,9 @@ draft: false
     <tr>
         <td style="width:60%;">
             <p>
-       Hi, my name's Kevin. I've been a Software Engineer at NASA Jet Propulsion Laboratory since 2017, working mainly on missions to mars (Mars 2020 and MSL) and the Planetary Data System. I'm passionate about open-source software, cloud computing, space, and coffee.
+       Hi, my name's Kevin. I've been a Software Engineer at NASA Jet Propulsion Laboratory since 2017, working mainly on missions to Mars (Mars 2020 and MSL) and the Planetary Data System. I'm passionate about open-source software, cloud computing, space, and coffee.
 
-Hobbies include going to Disneyland with my awesome wife Brittany, playing with my adorable dog (and idiot cat), and reading comic books.         
+Hobbies include going to Disneyland with my awesome wife Brittany, playing with my idiot cat, and reading comic books.         
             </p>
         </td>
         <td>
@@ -22,9 +22,6 @@ Hobbies include going to Disneyland with my awesome wife Brittany, playing with 
     <tr>
         <td>
             <img style="width:300px;" src="/images/photo_with_britt.png" />
-        </td>
-                <td>
-            <img style="width:200px;" src="/images/daisy_tongue.png" />
         </td>
         <td>
             <img style="width:200px;" src="/images/ru_idiot.png" />
