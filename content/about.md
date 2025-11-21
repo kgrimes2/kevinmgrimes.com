@@ -31,7 +31,7 @@ Hobbies include going to Disneyland with my awesome wife Brittany, playing with 
 
 ## Resume
 
-You can download my latest resume as a PDF from [here](/pdf/grimes_cv_su2024.pdf).
+You can download my latest resume as a PDF from [here](/pdf/grimes_cv_fall2025.pdf).
 
 ### Introduction
 
