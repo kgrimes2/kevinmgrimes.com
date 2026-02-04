@@ -1,10 +1,15 @@
 # Build the KDM React app
 FROM node:20-alpine as node-build
 
-COPY kdm-app /kdm-app
+# Install git to clone the submodule
+RUN apk add --no-cache git
+
 WORKDIR /kdm-app
 
-RUN npm ci && npx vite build
+# Clone the KDM app repository
+RUN git clone https://github.com/kgrimes2/kdm-settlement-manager.git . && \
+    npm ci && \
+    npx vite build
 
 # Build the Hugo site
 FROM klakegg/hugo:ext-alpine as hugo-build
