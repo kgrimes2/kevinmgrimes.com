@@ -1,0 +1,3 @@
+[submodule "kdm-app"]
+	path = kdm-app
+	url = https://github.com/kgrimes2/kdm-settlement-manager.git
