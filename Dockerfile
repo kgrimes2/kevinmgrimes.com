@@ -18,7 +18,7 @@ COPY ./ /site
 WORKDIR /site
 
 # Copy the built KDM app to static directory
-COPY --from=node-build /kdm-app/dist /site/static/kdm
+COPY --from=node-build /kdm-app/dist /site/static/kdm/manager
 
 RUN hugo
 
