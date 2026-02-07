@@ -10,6 +10,10 @@ on:
   pull_request:
     branches: [ main ]
 
+  # Triggers when kdm-settlement-manager main branch is updated
+  repository_dispatch:
+    types: [ kdm-settlement-manager-updated ]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
