@@ -20,8 +20,8 @@ ENV VITE_COGNITO_DOMAIN=$VITE_COGNITO_DOMAIN
 ENV VITE_COGNITO_REGION=$VITE_COGNITO_REGION
 ENV VITE_API_GATEWAY_URL=$VITE_API_GATEWAY_URL
 
-# Clone the KDM app repository (using release/v1.3.0 branch with production backend support)
-RUN git clone --branch release/v1.3.0 https://github.com/kgrimes2/kdm-settlement-manager.git . && \
+# Clone the KDM app repository
+RUN git clone https://github.com/kgrimes2/kdm-settlement-manager.git . && \
     npm ci && \
     npx vite build
 
