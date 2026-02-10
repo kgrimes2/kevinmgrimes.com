@@ -6,6 +6,20 @@ RUN apk add --no-cache git
 
 WORKDIR /kdm-app
 
+# Accept build arguments for production configuration
+ARG VITE_COGNITO_USER_POOL_ID
+ARG VITE_COGNITO_CLIENT_ID
+ARG VITE_COGNITO_DOMAIN
+ARG VITE_COGNITO_REGION
+ARG VITE_API_GATEWAY_URL
+
+# Set environment variables for Vite build
+ENV VITE_COGNITO_USER_POOL_ID=$VITE_COGNITO_USER_POOL_ID
+ENV VITE_COGNITO_CLIENT_ID=$VITE_COGNITO_CLIENT_ID
+ENV VITE_COGNITO_DOMAIN=$VITE_COGNITO_DOMAIN
+ENV VITE_COGNITO_REGION=$VITE_COGNITO_REGION
+ENV VITE_API_GATEWAY_URL=$VITE_API_GATEWAY_URL
+
 # Clone the KDM app repository
 RUN git clone https://github.com/kgrimes2/kdm-settlement-manager.git . && \
     npm ci && \

@@ -103,7 +103,14 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - 
         name: Build Docker Image
-        run: docker build -t ${{ env.AWS_LIGHTSAIL_SERVICE_NAME }}:release .
+        run: |
+          docker build \
+            --build-arg VITE_COGNITO_USER_POOL_ID="${{ secrets.PROD_COGNITO_USER_POOL_ID }}" \
+            --build-arg VITE_COGNITO_CLIENT_ID="${{ secrets.PROD_COGNITO_CLIENT_ID }}" \
+            --build-arg VITE_COGNITO_DOMAIN="${{ secrets.PROD_COGNITO_DOMAIN }}" \
+            --build-arg VITE_COGNITO_REGION="${{ secrets.PROD_COGNITO_REGION }}" \
+            --build-arg VITE_API_GATEWAY_URL="${{ secrets.PROD_API_GATEWAY_URL }}" \
+            -t ${{ env.AWS_LIGHTSAIL_SERVICE_NAME }}:release .
       - 
         name: Push and Deploy
         run: |
